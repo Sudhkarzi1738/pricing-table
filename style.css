@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+li{
+    list-style: none;
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    gap: 2rem; 
+    height: 100vh;
+    place-content: center space-around;
+   
+   
+}
+.pricing_table{
+    border: 1px solid rgb(14, 14, 14);
+    padding: 1rem;
+    border-radius: 1rem;
+    display: grid;
+    row-gap: 1rem;
+}
+.pricing_table_name{
+    display: grid;
+    row-gap: 0.5rem;
+}
+.pricing_table_name h2{
+    font-size: 1.5rem;
+}
+.pricing_table_name p{
+    font-size: 1.5rem;
+    color: hsla(0  0%  0% / 0.7);
+}
+.pricing_table_price{
+    display: grid;
+    gap: 1rem;
+}
+.double-price-component{
+    display: grid;
+    gap: 1rem;
+
+}
+.double-price-component{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.double-price-component h2{
+   font-size: 2rem;
+}
+.crossed-price{
+    color: black;
+    text-decoration:line-through 2px solid black ;
+}
+.pricing_table_price p{
+    font-size: 1.5rem;
+}
+.pricing_table_price a{
+    text-decoration: none;
+    background-color: rgb(235, 120, 13);
+    color: aliceblue;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+#current-plan{
+    background-color: rgb(242, 155, 5);
+    font-size: 1rem;
+}
+.pricing_table_features ul {
+    display: grid;
+    gap: 1rem 0;
+
+}
+.pricing_table_features ul li{
+    font-size: 1.5rem;
+    color: black;
+}
+.fa-check{
+    color: lightgreen;
+    font-size: 1.5rem;
+}
+.fa-xmark{
+    color: coral;
+    font-size: 1.5rem;
+}
